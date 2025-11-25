@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio | Ellen Cruz Câncio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Ellen C.</div>
+        <ul class="nav-links">
+            <li><a href="#sobre">Sobre Mim</a></li>
+            <li><a href="#projetos">Meus Feitos</a></li>
+            <li><a href="#contato">Contato</a></li>
+            <li class="theme-switch">
+                <i class="fas fa-moon" id="theme-icon"></i>
+            </li>
+        </ul>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <section id="sobre" class="section">
+        <div class="container about-container">
+            <div class="about-text">
+                <h1>Olá, me chamo <span class="highlight">Ellen Cruz Câncio</span></h1>
+                <p>
+                    Tenho 18 anos, gosto de pintar, desenvolver jogos e sites. Atualmente sou estudante do
+                    <strong>IFRJ - Campus Niterói</strong> e faço curso técnico de informática integrado ao ensino
+                    médio.
+                </p>
+                <div class="skills">
+                    <span>HTML/CSS</span>
+                    <span>JavaScript</span>
+                    <span>Game Dev</span>
+                    <span>Artes</span>
+                </div>
+            </div>
+            <div class="about-img">
+            </div>
+        </div>
+    </section>
+
+    <section id="projetos" class="section">
+        <div class="container">
+            <h2>Meus Feitos</h2>
+            <div class="projects-grid">
+
+                <a href="LINK_DO_SEU_PROJETO_1" target="_blank" class="project-card">
+                    <img src="https://placehold.co/600x400/8A9A5B/white?text=Site+1" alt="Imagem do Projeto 1">
+                    <div class="overlay">
+                        <h3>Nome do Projeto 1</h3>
+                        <p>Clique para visitar</p>
+                    </div>
+                </a>
+
+                <a href="LINK_DO_SEU_PROJETO_2" target="_blank" class="project-card">
+                    <img src="https://placehold.co/600x400/8A9A5B/white?text=Site+2" alt="Imagem do Projeto 2">
+                    <div class="overlay">
+                        <h3>Nome do Projeto 2</h3>
+                        <p>Clique para visitar</p>
+                    </div>
+                </a>
+
+                <a href="LINK_DO_SEU_PROJETO_3" target="_blank" class="project-card">
+                    <img src="https://placehold.co/600x400/8A9A5B/white?text=Game+Dev" alt="Imagem do Jogo">
+                    <div class="overlay">
+                        <h3>Nome do Jogo</h3>
+                        <p>Clique para jogar</p>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="section">
+        <div class="container contact-container">
+            <h2>Entre em Contato</h2>
+            <p>Email: <strong>ellen.cruz.cancio@gmail.com</strong></p>
+
+            <form action="https://formspree.io/f/SEU_CODIGO_FORMSPREE" method="POST" class="contact-form">
+                <input type="text" name="name" placeholder="Seu Nome" required>
+                <input type="email" name="email" placeholder="Seu Email" required>
+                <textarea name="message" rows="5" placeholder="Sua Mensagem" required></textarea>
+                <button type="submit" class="btn">Enviar Mensagem</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Ellen Cruz Câncio. Desenvolvido com carinho.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
